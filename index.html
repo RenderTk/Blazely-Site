@@ -1,305 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Blazely</title>
+    <title>Blazely | Privacy Policy</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
-            color: #1a1a1a;
-            background: #0a0a0a;
-            min-height: 100vh;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
             padding: 20px;
+            background-color: #f9f9f9;
         }
 
         .container {
-            max-width: 900px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 16px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
-            overflow: hidden;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
         }
 
-        .header {
-            background: #1a1a1a;
-            color: white;
-            padding: 60px 40px;
-            text-align: center;
-            border-bottom: 2px solid #333;
+        h1,
+        h2,
+        h3 {
+            color: #111;
         }
 
-        .header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            font-weight: 700;
-        }
-
-        .header p {
-            font-size: 1.1em;
-            opacity: 0.95;
-        }
-
-        .content {
-            padding: 50px 40px;
-        }
-
-        .highlight-box {
-            background: #f5f5f5;
-            border-left: 4px solid #1a1a1a;
-            padding: 25px;
-            margin: 30px 0;
-            border-radius: 8px;
-        }
-
-        .highlight-box h3 {
-            color: #1a1a1a;
-            margin-bottom: 10px;
-            font-size: 1.3em;
-        }
-
-        .highlight-box ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .highlight-box ul li {
-            padding: 8px 0;
-            padding-left: 25px;
-            position: relative;
-        }
-
-        .highlight-box ul li:before {
-            content: "✓";
-            position: absolute;
-            left: 0;
-            color: #1a1a1a;
-            font-weight: bold;
+        h1 {
+            font-size: 2.2em;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
         }
 
         h2 {
-            color: #2d3748;
-            margin-top: 40px;
-            margin-bottom: 20px;
-            font-size: 1.8em;
+            font-size: 1.6em;
+            margin-top: 35px;
+            border-bottom: 1px solid #eaeaea;
             padding-bottom: 10px;
-            border-bottom: 2px solid #e2e8f0;
         }
 
         h3 {
-            color: #4a5568;
-            margin-top: 25px;
-            margin-bottom: 15px;
-            font-size: 1.3em;
+            font-size: 1.2em;
+            margin-top: 20px;
+            color: #444;
         }
 
-        p {
+        p,
+        ul {
             margin-bottom: 15px;
-            color: #4a5568;
+            color: #555;
         }
 
         ul {
-            margin-left: 30px;
-            margin-bottom: 15px;
+            padding-left: 20px;
         }
 
-        ul li {
+        li {
             margin-bottom: 8px;
-            color: #4a5568;
         }
 
-        .date {
-            text-align: center;
-            color: #718096;
-            font-style: italic;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #e2e8f0;
-        }
-
-        .contact-box {
-            background: #f7fafc;
-            padding: 25px;
-            border-radius: 8px;
-            margin-top: 30px;
-            text-align: center;
-        }
-
-        .contact-box h3 {
-            color: #2d3748;
-            margin-bottom: 10px;
-        }
-
-        .back-button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 30px;
-            background: #1a1a1a;
-            color: white;
+        a {
+            color: #007aff;
             text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-            transition: transform 0.2s, box-shadow 0.2s;
-            border: 2px solid #1a1a1a;
         }
 
-        .back-button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-            background: white;
-            color: #1a1a1a;
+        a:hover {
+            text-decoration: underline;
         }
 
-        @media (max-width: 768px) {
-            .header {
-                padding: 40px 20px;
-            }
+        .last-updated {
+            font-style: italic;
+            color: #777;
+            margin-bottom: 30px;
+        }
 
-            .header h1 {
-                font-size: 2em;
-            }
-
-            .content {
-                padding: 30px 20px;
-            }
-
-            h2 {
-                font-size: 1.5em;
-            }
+        .privacy-highlight {
+            background-color: #e8f5e9;
+            border-left: 4px solid #4caf50;
+            padding: 15px;
+            border-radius: 4px;
+            color: #2e7d32;
+            font-weight: 500;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
-        <div class="header">
-            <h1>🔥 Blazely</h1>
-            <p>Privacy Policy</p>
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Last updated: March 2026</p>
+
+        <p>This Privacy Policy describes Our policies and procedures on the collection, use, and disclosure of Your
+            information when You use the Service and tells You about Your privacy rights and how the law protects You.
+        </p>
+
+        <p>At Blazely, we strongly believe that your personal health and fitness data is yours alone. Our app is
+            designed to maximize your privacy.</p>
+
+        <h2>1. Interpretation and Definitions</h2>
+
+        <h3>1.1 Interpretation</h3>
+        <p>Capitalized terms have the meanings assigned to them in this Policy.</p>
+
+        <h3>1.2 Definitions</h3>
+        <ul>
+            <li><strong>Account</strong> means the unique profile created for You to access the Service.</li>
+            <li><strong>Application</strong> means the mobile application titled "Blazely", a comprehensive fitness
+                companion app.</li>
+            <li><strong>Company</strong> (referred to as "the Company", "We", "Us", or "Our") refers to Blazely.</li>
+            <li><strong>Device</strong> means any device used to access the Service, such as a smartphone or tablet.
+            </li>
+            <li><strong>Personal Data</strong> means information that identifies or can reasonably be linked to an
+                individual.</li>
+            <li><strong>Service</strong> refers to the Application and any related services provided by Us.</li>
+            <li><strong>You</strong> means the individual using the Service or the organization on whose behalf the
+                Service is used.</li>
+        </ul>
+
+        <h2>2. Data We Collect (And What We Don't)</h2>
+
+        <h3>2.1 The ONLY Personal Data We Collect</h3>
+        <p>To use Blazely and create an Account, We collect just one piece of Personal Information:</p>
+        <ul>
+            <li><strong>Your Email Address:</strong> Used solely to create and authenticate your account through our
+                authentication provider (Supabase).</li>
+        </ul>
+        <p>We do not collect names, phone numbers, locations, or any other identifying information about you.</p>
+
+        <h3>2.2 Health, Fitness, and Nutrition Data</h3>
+        <div class="privacy-highlight">
+            <p><strong>Your health data never leaves your device!</strong></p>
+            <p>We absolutely DO NOT collect, store, or have access to any of the health, fitness, or nutrition data you
+                enter into Blazely on our servers.</p>
         </div>
+        <p>Any data related to your workouts, weight, height, food logs, and fitness goals is stored <strong>strictly
+                locally</strong> on your own Device. It is completely
+            under your control and cannot be accessed by Us.</p>
 
-        <div class="content">
-            <div class="highlight-box">
-                <h3>Your Privacy Matters</h3>
-                <p><strong>Blazely is built with privacy first.</strong> We believe your data belongs to you. Almost everything stays on your device, and we only collect the minimum information necessary to provide you with a secure login experience.</p>
-            </div>
+        <h3>2.3 Usage Data</h3>
+        <p>We may automatically collect basic, anonymized diagnostic data to keep the app functioning properly:</p>
+        <ul>
+            <li>Device type, operating system, and app version</li>
+            <li>Crash data and performance metadata</li>
+        </ul>
+        <p>This data contains no identifying personal information and no health/fitness data. It is only used to fix
+            bugs and improve the app's stability.</p>
 
-            <h2>Information We Collect</h2>
-            
-            <h3>Authentication Information</h3>
-            <p>When you create an account with Blazely, we collect and store:</p>
-            <ul>
-                <li>Email address or username</li>
-                <li>Encrypted password</li>
-                <li>Account creation date</li>
-            </ul>
-            <p>This information is necessary to authenticate your identity and provide you secure access to the app.</p>
+        <h2>3. How We Use and Share Data</h2>
 
-            <h3>Local Device Storage</h3>
-            <p><strong>Everything else stays on your device.</strong> All your app data, preferences, content, and activity are stored locally on your device and are never transmitted to our servers. This includes:</p>
-            <ul>
-                <li>All user-generated content</li>
-                <li>App settings and preferences</li>
-                <li>Usage data and activity</li>
-                <li>Any files or media you create or store in the app</li>
-            </ul>
+        <h3>3.1 Account Authentication</h3>
+        <p>We use your email address solely to maintain your Account and authenticate you securely.</p>
 
-            <h2>What We Don't Collect</h2>
-            <div class="highlight-box">
-                <h3>We Do NOT Collect:</h3>
-                <ul>
-                    <li>Location data</li>
-                    <li>Device information or identifiers</li>
-                    <li>Usage analytics or tracking data</li>
-                    <li>Cookies for advertising or tracking</li>
-                    <li>Third-party analytics data</li>
-                    <li>Any content you create within the app</li>
-                    <li>Contacts, photos, or other personal files</li>
-                </ul>
-            </div>
+        <h3>3.2 Service Providers</h3>
+        <p>We share strictly necessary data with vendors who provide core infrastructure for the Service, such as:</p>
+        <ul>
+            <li><strong>Supabase:</strong> For secure authentication and account creation (only your email address is
+                shared).</li>
+            <li><strong>RevenueCat:</strong> For managing your app subscriptions securely. RevenueCat handles the
+                billing anonymously and independent of your health data.</li>
+        </ul>
 
-            <h2>How We Use Your Information</h2>
-            <p>The limited authentication information we collect is used solely for:</p>
-            <ul>
-                <li>Verifying your identity when you log in</li>
-                <li>Allowing you to reset your password if needed</li>
-                <li>Providing customer support when requested</li>
-                <li>Preventing unauthorized access to your account</li>
-            </ul>
+        <h3>3.3 AI Features and External APIs</h3>
+        <p>If you use AI-assisted features (like food tracking or workout generation), we may send anonymized text
+            inputs to our AI providers (e.g., OpenAI) to generate your results. <strong>These inputs are not tied to
+                your email address or identity.</strong></p>
 
-            <h2>Data Storage and Security</h2>
-            <p>Your login credentials are stored securely using industry-standard encryption. We implement appropriate technical and organizational measures to protect your authentication information against unauthorized access, alteration, disclosure, or destruction.</p>
-            <p>Since all other app data is stored locally on your device, you maintain complete control over that information.</p>
+        <h3>3.4 Aggregation and Legal Compliance</h3>
+        <p>We do not sell any of Your information. We will only disclose your email address to law enforcement or
+            regulators if legally required to do so by a valid subpoena or court order.</p>
 
-            <h2>Data Sharing</h2>
-            <p><strong>We do not share, sell, rent, or trade your information with third parties.</strong> Your login information is never provided to advertisers, data brokers, or any other external parties.</p>
+        <h2>4. Retention and Deletion of Data</h2>
 
-            <h2>Your Rights</h2>
-            <p>You have the right to:</p>
-            <ul>
-                <li>Access your account information</li>
-                <li>Request deletion of your account and associated login data</li>
-                <li>Update or correct your login credentials</li>
-                <li>Export any data we hold (limited to login information)</li>
-            </ul>
+        <h3>4.1 Your Health Data</h3>
+        <p>Because your health, workout, and nutrition data is stored on your Device, it is retained until you delete
+            the app or clear the app's local data from your Device settings. You are in total control.</p>
 
-            <h2>Data Retention</h2>
-            <p>We retain your login information for as long as your account is active. If you delete your account, we will permanently delete your login credentials within 30 days. All local data on your device can be deleted at any time by uninstalling the app.</p>
+        <h3>4.2 Your Account Data</h3>
+        <p>You may request the deletion of your Account and email address from our servers at any time from within the
+            Application or by contacting Us. Upon request, your email will be permanently removed from our
+            authentication systems.</p>
 
+        <h2>5. Security</h2>
+        <p>We use robust technical safeguards provided by Supabase to protect your email address. In addition, by
+            keeping your personal health data strictly localized on your Device, we minimize the risk of any large-scale
+            data breach regarding your fitness information.</p>
 
+        <h2>6. Children's Privacy</h2>
+        <p>The Service is not intended for children under 13. We do not knowingly collect personal information from
+            children under 13.</p>
 
-            <h2>Changes to This Policy</h2>
-            <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new privacy policy on this page and updating the "Last Updated" date below.</p>
+        <h2>7. Changes to This Privacy Policy</h2>
+        <p>We may update this Policy from time to time. Updates become effective when posted within the Application.</p>
 
-            <h2>Contact Us</h2>
-            <div class="contact-box">
-                <h3>Questions About Your Privacy?</h3>
-                <p>If you have any questions about this privacy policy or how we handle your data, please contact us at:</p>
-                <p><strong>development.fer@gmail.com</strong></p>
-            </div>
+        <h2>8. Contact Us</h2>
+        <p>If You have any questions about this Privacy Policy, please contact us:</p>
+        <ul>
+            <li>By email: support@blazely.fit</li>
+        </ul>
 
-            <div class="date">
-                <p><strong>Last Updated:</strong> January 4, 2026</p>
-            </div>
-
-            <div style="text-align: center;">
-                <a href="/" class="back-button">Back to Home</a>
-            </div>
-        </div>
     </div>
-
-    <script>
-        // Smooth scroll to sections
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Add fade-in animation on load
-        window.addEventListener('load', () => {
-            document.querySelector('.container').style.opacity = '0';
-            document.querySelector('.container').style.transform = 'translateY(20px)';
-            document.querySelector('.container').style.transition = 'opacity 0.6s, transform 0.6s';
-            
-            setTimeout(() => {
-                document.querySelector('.container').style.opacity = '1';
-                document.querySelector('.container').style.transform = 'translateY(0)';
-            }, 100);
-        });
-    </script>
 </body>
+
 </html>
