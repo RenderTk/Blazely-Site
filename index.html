@@ -281,15 +281,30 @@
 
         @media (max-width: 768px) {
             header {
-                flex-direction: column;
-                gap: 24px;
-                padding: 24px 0;
+                flex-direction: row;
+                justify-content: flex-start;
+                padding: 20px 0;
+            }
+
+            header .app-store-btn {
+                display: none;
+            }
+
+            .logo {
+                font-size: 36px;
+                gap: 12px;
+            }
+
+            .logo-icon {
+                width: 52px;
+                height: 52px;
+                border-radius: 12px;
             }
 
             .hero {
                 flex-direction: column;
                 text-align: center;
-                padding: 40px 0 40px;
+                padding: 16px 0 40px;
             }
 
             .hero h1 {
@@ -379,7 +394,7 @@
 
         <section class="hero">
             <div class="hero-text">
-                <h1>Log Workouts Fast</h1>
+                <h1>Log Workouts Easily</h1>
                 <p>Keep a detailed record of every set and rep. Blazely's intuitive interface makes logging your
                     exercises simple, so you can focus on your performance.</p>
                 <a href="https://apps.apple.com/us/app/blazely-workouts-calories/id6753604372" class="app-store-btn"
